@@ -1,6 +1,142 @@
 <resources>
-    <string name="app_name">Turismo_SantaFeMD3</string>
+    <string name="app_name">Santa Fe de Antioquia 3.0</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">SPLASH</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">splash</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hotels">Hoteles</string>
+    <string name="hotel1">APARTA HOTEL EL PASO \n
+        Cra. 10 # 16-32 \nLlano de Bolívar\n
+        Teléfonos: (4)853 27 51 \n
+        Móvil: 314 735 34 54 \n
+        hotelensantafedeantioquia\n@hotmail.com\n
+        Solárium Jacuzzi
+        Bar y Licor nacional
+        Wi - Fi Parqueadero
+        Habitaciones dotadas de aire acondicionado y TV por cable Zona de bronceo Baño independiente</string>
+    <string-array name="planets_array">
+        <item>El Paso</item>
+        <item>San Angel</item>
+        <item>Portón del Sol</item>
+    </string-array>
+    <string-array name="bares_array">
+        <item>Mariangel</item>
+        <item>Carnes y Carnes</item>
+        <item>Lago de los Patos</item>
+    </string-array>
+    <string-array name="turis_array">
+        <item>Puente de Occidente</item>
+        <item>Religioso</item>
+        <item>Extremo</item>
+    </string-array>
+    <string name="hotel2">
+        100 metros después de la “Y” de la entrada a
+        Santa Fe de Antioquia - Colombia\n
+        Tel. (57-4) 853 15 73\n
+        Cel. 312 287 23 84
+        www.fincahotelsanangel.com\n
+        Habitaciones con aire acondicionado
+        Piscina Turco
+        Spa Kiosko con hamacas
+        Restaurante Parrilla - Bar
+        Eventos Empresariales, Sociales y Familiares
+        Salón de Juegos Parqueadero Zona Wi-Fi
+    </string>
+    <string name="hotel3">
+        Paso Real\n
+        Santa Fe de Antioquia - Colombia\n
+        Tel.(57-4) 448 35 10\n
+        Cel. 311 336 13 34\n
+        www.portondelsol.com\n
+        Zonas de bronceo dentro y fuera del agua
+        2 jacuzzis Bar en el agua
+        Turco Bar Spa Guardería canina
+        Caballos Bar - Restaurante
+        Juegos infantiles
+        Salón de Juegos
+        Juegos Infantiles
+        Canchas de Fútbol y Voleibol
+        Servicio de Bicicletas
+    </string>
+    <string name="title_activity_about_us">Acerda de</string>
+    <string name="title_activity_bares">Bares</string>
+    <string name="title_activity_turismo">Turismo</string>
+    <string name="title_activity_informacion">Información</string>
+    <string name="about">Acerda de</string>
+    <string name="bar1">
+        Santa Fe De Antioquia, Colombia.\n
+        Contiguo al Templo San Martín de Porres\n
+        Sector Llano de Bolívar\n
+        Cel. 321 817 30 28\n
+        -Solomo\n
+        -Cañón de Cerdo\n
+        -Chuleta de Cerdo\n
+        -Costillas\n
+        -Punta de Anca\n
+        -Pollo a la Plancha\n
+        -Jugos Naturales, gaseosas Licores Nacionales e Importados
+    </string>
+    <string name="bar2">
+        Parque Principal\n
+        Santa Fe de Antioquia\n
+        Tel. (57-4) 853 15 89\n
+        Cel. 313 692 96 95\n
+        -Langostinos al ajillo\n
+        -Espaghetti con pollo\n
+        -Pincho mixto\n
+        -Picadas\n
+        -Bebidas\n
+        -Filet mignon\n
+        -Cerdo en diferentes salsas\n
+        -Trucha al ajillo\n
+        -Salmón con langostinos\n
+        -Robalo a la milanesa
+    </string>
+    <string name="bar3">
+       Santa Fe De Antioquia.\n
+       Calle 13 La Variante con Carrera 17\n
+       Celular: 314 641 51 98\n
+       Carnes al Carbón.\n
+       Solomo.\n
+       Cañón de Cerdo.\n
+       Chuleta de Cerdo.\n
+       Costillas BBQ.\n
+       Churrasco.\n
+       Punta de Anca.\n
+       Mixta.\n
+       Bebidas.\n
+    </string>
+     <string name="turis1">
+       Una construcción de 8 años iniciada en 1887 y finalizada en 1895 y diseñada por José María Villa, es un puente colgante con 291 metros de longitud. Este comunica a Santa Fe de Antioquia con Olaya, pasando por encima del río Cauca. Fué declarado monumento histórico nacional en el año 1978.\n
+      La obra se le encargo al ingeniero Antioqueño José Maria Villa.
+    </string>
+    <string name="turis2">
+        La arquitectura que ha sobrevivido a través de los años da a Santa Fe de Antioquia el aspecto de una ciudad “estancada” en la época colonial, por lo que la ciudad misma fue declarada monumento Nacional.
+        Construcciones de los siglos XVI, XVII y XVIII\n
+        Iglesias de los siglos XVII y XVIII.\n
+       - Catedral Basílica de la Inmaculada Concepción\n
+        -Iglesia de Santa Bárbara\n
+        -Nuestra Señora de Chiquinquirá\n
+        -Iglesia de Jesús Nazareno\n
+        -Iglesia de San Pedro Claver\n
+    </string>
+    <string name="turis3">
+        Oficina #2 Hotel Mariscal Robledo\n
+        Santa Fe de Antioquia\n
+        Celeni María Oquendo\n
+        Tel. 853 19 46\n
+        Cel. 313 667 81 50\n
+        www.naturaventura.com.co\n
+        -CANOTAJE \n
+        -CABALGATAS\n
+        -CAMINATA \n
+        -RECORRIDO EN CHIVA\n
+        -RAFTING\n
+        -CAMINATAS\n
+        -RUTAS ECOTURISTICAS\n
+    </string>
+    <string name="aboutext">Turismo Santa Fe de Antioquia\nDesarrollado por Alejandro González Varela</string>
 </resources>

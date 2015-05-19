@@ -36,4 +36,14 @@ public class MainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+    @Override
+    public void onBackPressed() {
+        if (getFragmentManager().getBackStackEntryCount()==0)
+        {
+            this.finish();
+        }else{
+            getFragmentManager().popBackStack();
+        }
+
+    }
 }

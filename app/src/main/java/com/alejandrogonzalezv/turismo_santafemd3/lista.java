@@ -27,6 +27,13 @@ public class lista extends ListFragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+//        int orientation = getResources().getConfiguration().orientation;
+//
+//        if(orientation == Configuration.ORIENTATION_LANDSCAPE ){
+//            this.getFragmentManager().beginTransaction()
+//                    .replace(android.R.id.content,null)
+//                    .commit();
+//        }
         return inflater.inflate(R.layout.fragment_lista, container, false);
     }
 
@@ -37,40 +44,48 @@ public class lista extends ListFragment {
 
         if(orientation == Configuration.ORIENTATION_LANDSCAPE ){
 
+
             switch(position){
                 case 0:
-                    hoteles nextHoteles= new hoteles();
+                    hoteles Hoteles= new hoteles();
                     this.getFragmentManager().beginTransaction()
-                            .replace(R.id.container, nextHoteles)
+                            .replace(R.id.container, Hoteles)
                             .addToBackStack(null)
                             .commit();
                     break;
 
                 case 1:
 
-                    bares nextBares= new bares();
+                    bares Bares= new bares();
                     this.getFragmentManager().beginTransaction()
-                            .replace(R.id.container, nextBares)
+                            .replace(R.id.container, Bares)
                             .addToBackStack(null)
                             .commit();
                     break;
 
                 case 2:
-                    turismo nextTurismo= new turismo();
+                    turismo Turismo= new turismo();
                     this.getFragmentManager().beginTransaction()
-                            .replace(R.id.container, nextTurismo)
+                            .replace(R.id.container, Turismo)
                             .addToBackStack(null)
                             .commit();
                     break;
 
                 case 3:
-                    info nextInfo= new info();
+                    info Info= new info();
                     this.getFragmentManager().beginTransaction()
-                            .replace(R.id.container, nextInfo)
+                            .replace(R.id.container, Info)
                             .addToBackStack(null)
                             .commit();
                     break;
 
+                case 4:
+                    about About= new about();
+                    this.getFragmentManager().beginTransaction()
+                            .replace(R.id.container, About)
+                            .addToBackStack(null)
+                            .commit();
+                    break;
 
             }
 
@@ -78,39 +93,45 @@ public class lista extends ListFragment {
         else{
             switch(position){
                 case 0:
-                    hoteles nextHoteles= new hoteles();
+                    hoteles Hoteles= new hoteles();
                     this.getFragmentManager().beginTransaction()
-                            .replace(android.R.id.content, nextHoteles)
+                            .replace(android.R.id.content, Hoteles)
                             .addToBackStack(null)
                             .commit();
                     break;
 
                 case 1:
 
-                    bares nextBares= new bares();
+                    bares Bares= new bares();
                     this.getFragmentManager().beginTransaction()
-                            .replace(android.R.id.content, nextBares)
+                            .replace(android.R.id.content, Bares)
                             .addToBackStack(null)
                             .commit();
                     break;
 
                 case 2:
-                    turismo nextTurismo= new turismo();
+                    turismo Turismo= new turismo();
                     this.getFragmentManager().beginTransaction()
-                            .replace(android.R.id.content, nextTurismo)
+                            .replace(android.R.id.content, Turismo)
                             .addToBackStack(null)
                             .commit();
                     break;
 
                 case 3:
-                    info nextInfo= new info();
+                    info Info= new info();
                     this.getFragmentManager().beginTransaction()
-                            .replace(android.R.id.content, nextInfo)
+                            .replace(android.R.id.content, Info)
                             .addToBackStack(null)
                             .commit();
                     break;
 
-
+                case 4:
+                    about About= new about();
+                    this.getFragmentManager().beginTransaction()
+                            .replace(android.R.id.content, About)
+                            .addToBackStack(null)
+                            .commit();
+                    break;
             }
         }
 

@@ -2,7 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.alejandrogonzalezv.turismo_santafe20.info">
+    tools:context="com.alejandrogonzalezv.turismo_santafe20.info"
+    android:background="@color/gainsboro">
 
     <ImageView
         android:layout_width="match_parent"

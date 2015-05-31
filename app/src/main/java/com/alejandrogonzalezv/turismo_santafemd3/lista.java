@@ -87,6 +87,14 @@ public class lista extends ListFragment {
                             .commit();
                     break;
 
+                case 5:
+                    mapa pueblo= new mapa();
+                    this.getFragmentManager().beginTransaction()
+                            .replace(R.id.container, pueblo)
+                            .addToBackStack(null)
+                            .commit();
+                    break;
+
             }
 
         }
@@ -129,6 +137,14 @@ public class lista extends ListFragment {
                     about About= new about();
                     this.getFragmentManager().beginTransaction()
                             .replace(android.R.id.content, About)
+                            .addToBackStack(null)
+                            .commit();
+                    break;
+
+                case 5:
+                    mapa pueblo = new mapa();
+                    this.getFragmentManager().beginTransaction()
+                            .replace(android.R.id.content, pueblo)
                             .addToBackStack(null)
                             .commit();
                     break;

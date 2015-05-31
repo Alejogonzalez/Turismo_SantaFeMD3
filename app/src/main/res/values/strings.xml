@@ -23,6 +23,7 @@
         <item>Turismo</item>
         <item>Información</item>
         <item>Acerca de...</item>
+        <item>Mapa</item>
     </string-array>
     <string-array name="planets_array">
         <item>El Paso</item>

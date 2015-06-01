@@ -142,9 +142,9 @@ public class lista extends ListFragment {
                     break;
 
                 case 5:
-                    mapa pueblo = new mapa();
+                    mapa pueblop = new mapa();
                     this.getFragmentManager().beginTransaction()
-                            .replace(android.R.id.content, pueblo)
+                            .replace(android.R.id.content, pueblop)
                             .addToBackStack(null)
                             .commit();
                     break;
